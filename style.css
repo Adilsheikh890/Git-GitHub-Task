@@ -85,3 +85,42 @@ main {
     line-height: 40px;
     font-size: 30px;
   }
+  .description{
+    background-color : 	#a65959;
+    color : white;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.description {
+    flex: 2; /* Yeh left side ka content hoga */
+    padding: 20px;
+}
+
+.right {
+    flex: 1; /* Yeh right side ka content hoga */
+    padding: 20px;
+    background-color: #f0f0f0; /* Optional: Background color for visibility */
+}
+
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.heroone {
+    font-size: 2em;
+}
