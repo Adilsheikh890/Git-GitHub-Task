@@ -59,3 +59,29 @@ main {
     padding: 60px 20px;
     text: center; /* Ensure content doesn't overlap with fixed header */
 }
+.hero{
+    background:#A9A9A9;
+    text-align: center;
+    padding-top: 4%;
+    height: 6rem;
+    color : white;
+    
+    
+}
+.heroone{
+    padding-bottom : 10%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+  }
